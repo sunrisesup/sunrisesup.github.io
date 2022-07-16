@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.7"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"习说党史学习教育","c":[{"t":"heading","d":2,"p":{"lines":[2,3]},"v":"在福建，阐释“学史明理”","c":[{"t":"list_item","d":4,"p":{"lines":[3,4]},"v":"深刻领悟","c":[{"t":"list_item","d":6,"p":{"lines":[4,5]},"v":"中国共产党为什么能"},{"t":"list_item","d":6,"p":{"lines":[5,6]},"v":"马克思主义为什么行"},{"t":"list_item","d":6,"p":{"lines":[6,7]},"v":"中国特色社会主义为什么好"}]},{"t":"list_item","d":4,"p":{"lines":[7,8]},"v":"深刻领悟坚持中国共产党领导的历史必然性"},{"t":"list_item","d":4,"p":{"lines":[8,9]},"v":"深刻领悟马克思主义及其中国化创新理论的真理性"},{"t":"list_item","d":4,"p":{"lines":[9,10]},"v":"深刻领悟中国特色社会主义道路的正确性"}]},{"t":"heading","d":2,"p":{"lines":[11,12]},"v":"到广西，强调“学史增信”","c":[{"t":"list_item","d":4,"p":{"lines":[12,13]},"v":"增强对马克思主义、共产主义的信仰"},{"t":"list_item","d":4,"p":{"lines":[13,14]},"v":"增强对中国特色社会主义的信念"},{"t":"list_item","d":4,"p":{"lines":[14,15]},"v":"增强对实现中华民族伟大复兴的信心"}]},{"t":"heading","d":2,"p":{"lines":[16,17]},"v":"赴青海，解读“学史崇德”","c":[{"t":"list_item","d":4,"p":{"lines":[17,18]},"v":"崇尚对党忠诚的大德"},{"t":"list_item","d":4,"p":{"lines":[18,19]},"v":"崇尚造福人民的公德"},{"t":"list_item","d":4,"p":{"lines":[19,20]},"v":"崇尚严于律己的品德"}]},{"t":"heading","d":2,"p":{"lines":[21,22]},"v":"去西藏，号召“学史力行”","c":[{"t":"list_item","d":4,"p":{"lines":[22,23]},"v":"在锤炼党性上力行"},{"t":"list_item","d":4,"p":{"lines":[23,24]},"v":"在为民服务上力行"},{"t":"list_item","d":4,"p":{"lines":[24,25]},"v":"在推动发展上力行"}]}]})</script>
+</body>
+</html>
