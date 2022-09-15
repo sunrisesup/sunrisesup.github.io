@@ -5,6 +5,9 @@ subtitle: My records of my life, my work, and others.
 # url: "https://rahul-bothra.github.io"
 # baseurl: "/parchment"
 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 footer_only_homepage: true
 footer_url: "https://github.com/rahul-bothra"
 footer_text: "Theme by rahul-bothra"
