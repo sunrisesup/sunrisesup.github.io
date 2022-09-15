@@ -36,7 +36,7 @@ footer_text: "Theme by rahul-bothra"
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
 
-permalink: /:year/:month/:title
+permalink: month
 sass:
     style: compressed
     sass_dir: css
