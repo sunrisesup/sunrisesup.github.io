@@ -17,6 +17,8 @@ sass:
     style: compressed
     sass_dir: css
 
+timezone: Asia/Shanghai
+
 navbar:
  - name: "About"
    link: "about"
