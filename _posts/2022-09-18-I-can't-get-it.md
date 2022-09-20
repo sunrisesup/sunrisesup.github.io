@@ -6,6 +6,8 @@ tags: [JPG, 看不懂]
 
 ![img](https://github.com/sunrisesup/sunrisesup.github.io/raw/main/images/cannotgetit.JPG)
 
+{{ "/images/cannotgetit.JPG" | prepend: site.baseurl }} 
+
 这是一个通过Jekyll在github建博客后，如何引用图片的例子。具体如下：
 使用 Github 作为图床在博文中插入图片
 在博客根目录下创建一个储存图片的文件夹images（或任何名字）
