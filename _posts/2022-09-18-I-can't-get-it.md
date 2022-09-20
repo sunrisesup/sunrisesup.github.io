@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  看不懂但大受震撼
-tags: [JPG, 看不懂]
+tags: [图片, 图床]
 ---
 
 ![img](https://github.com/sunrisesup/sunrisesup.github.io/raw/main/images/cannotgetit.JPG)
