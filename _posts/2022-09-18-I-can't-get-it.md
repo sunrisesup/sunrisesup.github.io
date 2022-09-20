@@ -13,4 +13,4 @@ tags: [JPG, 看不懂]
 在github仓库中打开图片，复制url，如 https://github.com/sunrisesup/sunrisesup.github.io/blob/main/images/cannotgetit.JPG
 4. 将URL中blob替换为raw，即 https://github.com/sunrisesup/sunrisesup.github.io/raw/main/images/cannotgetit.JPG
 5. 使用markdown插入图片的语法即可显示图片，如：
-    ｀![img](https://github.com/sunrisesup/sunrisesup.github.io/raw/main/images/cannotgetit.JPG)｀
+<code>![img](https://github.com/sunrisesup/sunrisesup.github.io/raw/main/images/cannotgetit.JPG)</code>
