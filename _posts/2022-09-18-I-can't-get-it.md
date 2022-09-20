@@ -4,4 +4,4 @@ title:  看不懂但大受震撼
 tags: [JPG, 看不懂]
 ---
 
-![img](/images/cannotgetit.jpg)
+![img](https://github.com/sunrisesup/sunrisesup.github.io.git/images/cannotgetit.jpg)
