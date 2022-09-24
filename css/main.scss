@@ -203,7 +203,7 @@ code {
         padding: 0 30px 0 30px;
     }
     ol > li:before {
-        content: counter-reset(list);
+        content: normal;
         counter-reset: list;
         position: static;
         left: -30px;
