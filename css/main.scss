@@ -184,7 +184,6 @@ code {
 
     ol {
         counter-reset: list;
-        display: list-item;
     }
     ol > li {
         list-style-position: inside;/*列表项目标记放置在文本以内，
