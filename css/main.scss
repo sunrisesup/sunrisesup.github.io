@@ -202,11 +202,17 @@ code {
         padding: 0 30px 0 30px;
     }
     ol > li:before {
+        content: list;
+        counter-increment: list;
+        position: absolute;
+        left: -30px;
+    }/*有序列表，无计数器，无[]标记*/
+    /*ol > li:before {
         content: "[" counter(list, decimal) "] ";
         counter-increment: list;
         position: absolute;
         left: -30px;
-    }
+    }有序列表，有计数器，有[]标记*/
     blockquote {
         border-left: 5px solid #333333;
         margin: 5px 0;
@@ -292,12 +298,4 @@ table tr th :first-child, table tr td :first-child {
 }
 table tr th :last-child, table tr td :last-child {
     margin: 0;
-}
-
-ol ol {
-    list-style-type: lower-roman;
-}
-
-ol ol ol {
-    list-style-type: lower-latin;
 }
