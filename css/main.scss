@@ -204,6 +204,7 @@ code {
     }
     ol > li:before {
         content: list;
+        counter-increment: none;
         position: absolute;
         left: -30px;
     }/*有序列表，无计数器，无[]标记*/
