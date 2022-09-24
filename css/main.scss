@@ -203,11 +203,11 @@ code {
         padding: 0 30px 0 30px;
     }
     ol > li:before {
-        content: list;
-        counter-increment: none;
+        content: counter(list, decimal);
+        counter-reset: list;
         position: absolute;
         left: -30px;
-    }/*有序列表，无计数器，无[]标记*/
+    }/*有序列表，无[]标记*/
     /*ol > li:before {
         content: "[" counter(list, decimal) "] ";
         counter-increment: list;
