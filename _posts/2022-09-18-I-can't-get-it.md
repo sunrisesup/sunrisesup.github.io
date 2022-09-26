@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  看不懂但大受震撼
+title:  使用Github作为图床的代码
 tags: [图片, 图床]
 ---
 
